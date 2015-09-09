@@ -1,0 +1,8 @@
+public class Homework{
+
+public static void main(String[] args) {
+
+if (radius>=0) {
+area=radius*radius*3.1415;
+
+System.out.println("The area of the circle is
