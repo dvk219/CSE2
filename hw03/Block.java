@@ -17,7 +17,7 @@ public static void main(String[] args) // creating the class type
     float c = myscanner.nextFloat();//creating scanner for the next input
     float volume=a*b*c; // formula for finding the volume
     float surface=(2*a*b)+(2*b*c)+(2*a*c); // formula for finding the surface area
-    System.out.println("The volume of the block dimensions "+a+ " x " +b+ " x " +c+ " = " +volume );
+    System.out.println("The volume of the block dimensions "+a+ " x " +b+ " x " +c+ " = " +volume ); // creating the output including the variables in
     System.out.println("The surface of the block is  " +surface);
     
 }
