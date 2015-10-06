@@ -1,11 +1,17 @@
+import java.util.Scanner;
+
 public class test{
+
 public static void main(String[] args){
- int counter = 0;
-  int capacity = 7;
-  while(counter < capacity) {
-       System.out.print(counter + " ");
-       counter++;
-       capacity--;
-    }
+
+int j = 0
+for (int i=0; i<10; i++) {
+     if (i % 2 == 0) {
+          break;
+          System.out.println(j);
+     }
+     j++
 }
 }
+}
+
