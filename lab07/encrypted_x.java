@@ -12,6 +12,7 @@ public class encrypted_x{
             if((i>=0) && (i<=100)){ //1. create range for the input
                 if(i%2==0){ //2. check if the input number is odd, 
                 i++;//3.if not we add 1 to make it odd. odd number is required to be symetrical
+                //i++ - means: i+1
                 }
                 for(int a =0; a<i;a++){ // creating vertical rows-a. a must not exceed the input
                     for(int b =0;b<i;b++){ // creatign horizontal rows-b. same things as vert
@@ -29,6 +30,7 @@ public class encrypted_x{
                 }
             
             System.out.println(""); // printLN is required to shift to the next line
+                                    // LN means line
                 
             
          
