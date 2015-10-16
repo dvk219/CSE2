@@ -28,7 +28,7 @@ public class methods{ //the compiling method is outside of the main method
         int j = myscanner.nextInt();
         double mean=mean(a,b,c,d,e,f,g,h,i,j); //Last Step: declaring mean and median outside median and mean methods so it si visible for all methods 
         double median=median(a,b,c,d,e,f,g,h,i,j);//  /\
-                                                     /--\
+                                        //           /--\
                                                 //    ||
         result( median,  mean); //return always unles it is a void method
         
