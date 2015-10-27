@@ -8,13 +8,25 @@ import java.util.Scanner;
 public class CoinFlipping{
     
 public static void main(String args[]){
-flip();
+
 
 Scanner myscanner = new Scanner(System.in);
-System.out.println("Enter number of flips between 1 and 100");
+System.out.println("Enter number of flips between 0 and 100");
 int numberofflips=myscanner.nextInt();
 
-flip(numberofflips);
+
+if(numberofflips<0 || numberofflips>100){
+    System.out.println("Invalid number");
+    }
+else if(numberofflips==0){
+    flip();
+}
+else {
+    flip(numberofflips);
+}
+    
+
+
 }
 
 public static void flip(){
@@ -25,7 +37,8 @@ public static void flip(){
     if(a == 1){
         
     System.out.println("You flipped Heads!");
-    }else{
+    }
+    else{
         
         System.out.println("You flipped Tails!");
     }
